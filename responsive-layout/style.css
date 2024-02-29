@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+input {
+    flex: 1 0 120px;
+}
+
+button {
+    background-color: #5FDE9D;
+    flex: 1 0 50px;
+    text-transform: uppercase;
+}
+
+input, button{
+    border-radius: 3px;
+    border: solid 1px;
+    padding: 5px 10px;
+}
